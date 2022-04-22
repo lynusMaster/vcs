@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent's cube school</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header><script src="../../html/_layout/_header.js"></script></header>
+        <!-- <header data-include-path="../../html/_layout/_header.html"></header> -->
+        <div class="main">
+            <div class="main-logo">
+                <img src="../../img/main/vcs-main-logo.png" alt="">
+            </div>
+            <div class="main-title">
+                <p><span>빈</span>센트 <span>큐</span>브 <span>스</span>쿨</p>
+                <p><span>V</span>incent's <span>C</span>ube <span>S</span>chool</p>
+            </div>
+        </div>
+        <footer><script src="../../html/_layout/_footer.js"></script></footer>
+        <!-- <footer data-include-path="../../html/_layout/_footer.html"></footer> -->
+    </div>
+    <!--
+	<script>
+        window.addEventListener('load', function() {
+            var allElements = document.getElementsByTagName('*');
+            Array.prototype.forEach.call(allElements, function(el) {
+                var includePath = el.dataset.includePath;
+                if (includePath) {
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4 && this.status == 200) {
+                            el.outerHTML = this.responseText;
+                        }
+                    };
+                    xhttp.open('GET', includePath, true);
+                    xhttp.send();
+                }
+            });
+        });
+	</script>
+    -->
+</body>
+</html>
